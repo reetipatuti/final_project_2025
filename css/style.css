@@ -39,7 +39,7 @@ p{
   margin-top: 1rem;
   background-color: #2c2c2c;
   padding: 20px;
-  justify-items: flex-start;
+  justify-items: center;
 }
 
 .navbar ul {
@@ -87,7 +87,10 @@ header {
     text-align: center;
     color: #fff;
   }
-  
+.bitmoji{
+  width: 300px;
+  height: auto;
+} 
   .demo-video {
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
@@ -351,6 +354,13 @@ ul{
         p {
           font-size: 1.125rem;
         }
+        .navbar {
+          margin-top: 1rem;
+          background-color: #2c2c2c;
+          padding: 20px;
+          justify-items: flex-start;
+        }
+        
         .navbar ul {
             flex-direction: row; /* arrange links horizontally */
             justify-content: center;
@@ -488,11 +498,10 @@ ul{
           .photo-stack:hover .photo-card:hover {
             transform: translateX(calc((var(--i) - 3) * 80px)) translateY(-20px) scale(1.08) rotateZ(1deg);
           }
-          .journey, 
-.carousel-section {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+          .journey, .carousel-section {
+          max-width: 1000px;
+          margin: 0 auto;
+        }
         }
 /* Reduce Motion */
 @media (prefers-reduced-motion: reduce) {
