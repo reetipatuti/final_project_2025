@@ -18,11 +18,21 @@
       </section> -->
 
     <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#things-i-love">Things I Love</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
         <h1> Hi, I'm Reet!</h1>
         <p> A UX designer, creative thinker, and problem solver.</p>
     </header>
     <main>
-    <section class="photo-stack">
+    <section id="gallery" class="photo-stack">
         <div class="photo-card" style="--i:0;">
           <img src="images/Photo1.JPG" alt="Photo 1">
         </div>
@@ -40,12 +50,12 @@
         </div>
       </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <h2>About Me</h2>
         <p>I’m a Master's student at the University of Michigan studying UX Design. I’m passionate about designing thoughtful experiences, whether it’s for games, healthcare, or anything in between.</p>
     </section>
 
-    <section class="journey" >
+    <section id="journey" class="journey" >
         <h2>Professional and Academic Journey</h2>
         <ul class="card_list">
           <li class="card">
@@ -115,7 +125,7 @@
         </ul>
       </section>
 
-      <section class="carousel-section">
+      <section id="things-i-love" class="carousel-section">
         <h2>Things I Love</h2>
         <div class="carousel">
           
@@ -154,7 +164,7 @@
 
 
       <!-- Contact me  -->
-      <section class="contact-section">
+      <section id="contact" class="contact-section">
         <h2>Wanna know more?</h2>
         <form class="contact-form" action="https://formspree.io/f/meoapdop" method="POST" id="contactform">
           <label for="name">Name</label>
