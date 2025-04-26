@@ -40,6 +40,7 @@ p{
   background-color: #2c2c2c;
   padding: 20px;
   justify-items: center;
+  position: sticky;
 }
 
 .navbar ul {
@@ -251,11 +252,11 @@ ul{
       
       .contact-form input:focus,
       .contact-form textarea:focus {
-        outline: 2px solid #b74900;
+        outline: 2px solid #000000;
       }
       
       .contact-form button {
-        background-color: #b74900;
+        background-color: #000000;
         color: #fff;
         padding: 0.75rem 1rem;
         border: none;
@@ -267,14 +268,14 @@ ul{
       }
       
       .contact-form button:hover {
-        background-color: #b74900;
+        background-color: #000000;
       }
 
       /* Footer */
 
       .site-footer {
-        background-color: #b74900;
-        color: #ccc;
+        background-color: #000000;
+        color: #ffffff;
         text-align: center;
         padding: 2rem 1rem;
         margin-top: 4rem;
@@ -282,7 +283,7 @@ ul{
       }
       
       .site-footer a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: underline;
       }
       
@@ -359,6 +360,7 @@ ul{
           background-color: #2c2c2c;
           padding: 20px;
           justify-items: flex-start;
+          position: sticky;
         }
 
         .navbar ul {
