@@ -35,7 +35,7 @@ p{
 }
 /* Header styling */
 header {
-    background-color: #6b6b6b;
+    background-color: #b74900;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
@@ -234,13 +234,13 @@ ul{
       }
       
       .contact-form button:hover {
-        background-color: #ff7c1a;
+        background-color: #b74900;
       }
 
       /* Footer */
 
       .site-footer {
-        background-color: #eb5e00;
+        background-color: #b74900;
         color: #ccc;
         text-align: center;
         padding: 2rem 1rem;
