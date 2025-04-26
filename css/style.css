@@ -39,6 +39,7 @@ p{
   margin-top: 1rem;
   background-color: #2c2c2c;
   padding: 20px;
+  justify-items: flex-start;
 }
 
 .navbar ul {
@@ -355,6 +356,9 @@ ul{
             justify-content: center;
             gap: 2rem;
         }
+        .photo-stack{
+          justify-content: center
+        }
 
         .carousel-card {
           flex: 0 0 50%;
@@ -369,9 +373,9 @@ ul{
         .individual_card > div {
           flex: 1;
         }
-    .card_list {
-                gap: 2rem;
-              }
+        .card_list {
+            gap: 2rem;
+          }
 
   .card {
     display: grid;
@@ -408,6 +412,23 @@ ul{
 /* Desktop */ 
 
 @media (min-width: 900px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .bitmoji{
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+  }
+  .gallery_text{
+    margin: 2rem auto;
+    text-align: center;
+  }
+
         .carousel-card {
           flex: 0 0 33.33%;
         }
