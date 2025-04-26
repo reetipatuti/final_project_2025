@@ -369,8 +369,20 @@ ul{
             gap: 2rem;
         }
         .photo-stack{
-          justify-content: center
+          justify-content: center;
         }
+        .photo_section{
+          display: block;
+          justify-items: flex-start;
+        }
+        
+        .photo-card img {
+          width: 180px;
+          height: 270px;
+          object-fit: cover;
+          border-radius: 20px;
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);}
+
 
         .carousel-card {
           flex: 0 0 50%;
@@ -439,6 +451,10 @@ ul{
   .gallery_text{
     margin: 2rem auto;
     text-align: center;
+  }
+  .photo_section{
+    display: block;
+    justify-items: center;
   }
 
         .carousel-card {
