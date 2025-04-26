@@ -218,11 +218,11 @@ ul{
       
       .contact-form input:focus,
       .contact-form textarea:focus {
-        outline: 2px solid #eb5e00;
+        outline: 2px solid #b74900;
       }
       
       .contact-form button {
-        background-color: #eb5e00;
+        background-color: #b74900;
         color: #fff;
         padding: 0.75rem 1rem;
         border: none;
