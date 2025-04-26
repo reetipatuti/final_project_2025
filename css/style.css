@@ -37,6 +37,8 @@ p{
 /* Nav Styling */
 .navbar {
   margin-top: 1rem;
+  background-color: #2c2c2c;
+  padding: 20px;
 }
 
 .navbar ul {
@@ -63,7 +65,6 @@ p{
 
 /* Header styling */
 header {
-    background-color: #b74900;
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
@@ -354,7 +355,7 @@ ul{
             justify-content: center;
             gap: 2rem;
         }
-        
+
         .carousel-card {
           flex: 0 0 50%;
         }
